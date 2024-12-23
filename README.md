@@ -4,15 +4,17 @@
 This project is built with Angular and leverages various tools and libraries to create a responsive, dynamic, and visually appealing web application. It includes server-side rendering (SSR), Material Design components, and 3D graphics integration using Three.js and Spline.
 
 ---
+## Deployment
 
-##Deployment 
-after cloning the repository make sure Docker is running, then : 
+After cloning the repository, make sure Docker is running, then:
 
-Build the image with: 
+### 1. Build the image
+
+Build the Docker image with the following command:
+
+```bash
 docker build -t wcr-project .
 
-and run it: 
-docker run -d -p 4200:4200 wcr-challenge
 
 
 ## Dependencies
