@@ -56,10 +56,8 @@ wcr-project/
 │   ├── app/                  # Main application folder
 │   │   ├── components/       # Reusable components
 │   │   ├── services/         # Shared services like AuthService
-│   │   ├── models/           # TypeScript models for data structures
 │   │   ├── app.module.ts     # Main Angular module
 │   │   ├── app.component.ts  # Root component
-│   │   └── app-routing.module.ts # Application routing configuration
 │   ├── assets/               # Static assets like images and styles
 │   ├── environments/         # Environment-specific configurations
 │   ├── main.ts               # Application entry point for the client
