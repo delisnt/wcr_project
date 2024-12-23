@@ -12,7 +12,7 @@ After cloning the repository make sure Docker is running, then :
 docker build -t wcr-project .
 
 ### And run it: 
-docker run -d -p 4200:4200 wcr-challenge
+docker run -d -p 4200:4200 wcr-project
 
 
 
