@@ -1,0 +1,48 @@
+
+
+  mat-tab-group {
+    width: 100%;
+  }
+
+  .container-btn {
+    height: 60px;
+  }
+
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 150px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Aggiunge spazio tra i campi senza usare margini */
+    margin-top: 16px;
+  }
+  
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 16px;
+    height: 40px; /* Altezza uniforme */
+  }
+
+  
+  .google-btn .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .facebook-btn .icon {
+    width: 20px;
+    height: 20px;
+  }
+  

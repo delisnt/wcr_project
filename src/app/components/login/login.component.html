@@ -1,0 +1,36 @@
+
+      <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <mat-form-field appearance="outline">
+          <mat-label>E-mail</mat-label>
+          <input matInput ngModel name="email" placeholder="Enter your email" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput ngModel name="password" type="password" placeholder="Enter your password" />
+        </mat-form-field>
+        <div class="container-btn">
+            <button mat-raised-button color="primary" >Login</button>
+        </div>
+        <div class="social-buttons">
+          <button mat-raised-button color="primary" class="facebook-btn">
+            <mat-icon>facebook</mat-icon>
+            Register with Facebook
+          </button>
+        
+          <button mat-raised-button color="warn" class="google-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="icon">
+                <path fill="#EA4335" d="M24 9.5c3.17 0 5.94 1.16 8.14 3.07l6.07-6.07C34.63 3.07 29.64 1 24 1 14.8 1 7.06 6.48 3.44 14.09l7.43 5.77C12.75 14.04 17.99 9.5 24 9.5z"/>
+                <path fill="#4285F4" d="M46.1 24.5c0-1.64-.15-3.23-.43-4.76H24v9.02h12.6c-.54 2.93-2.15 5.42-4.53 7.08l7.43 5.77C43.73 37.94 46.1 31.62 46.1 24.5z"/>
+                <path fill="#FBBC05" d="M10.87 28.91c-.47-1.38-.74-2.85-.74-4.41s.27-3.03.74-4.41l-7.43-5.77C2.49 17.2 1.9 20.06 1.9 24s.59 6.8 1.54 9.68l7.43-5.77z"/>
+                <path fill="#34A853" d="M24 46c5.64 0 10.63-1.87 14.2-5.07l-7.43-5.77c-2.07 1.39-4.7 2.2-7.77 2.2-6.01 0-11.25-4.54-12.93-10.59l-7.43 5.77C7.06 41.52 14.8 46 24 46z"/>
+                <path fill="none" d="M0 0h48v48H0z"/>
+              </svg>
+              Register with Google
+            </button>
+                  
+        </div>
+      </form>
+
+
+ 
