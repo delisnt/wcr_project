@@ -28,11 +28,7 @@ This project is built with Angular and leverages various tools and libraries to 
 - **`tslib`**: Reduces code duplication by providing TypeScript helpers.
 
 ### 3D Graphics and Spline Integration
-- **`three`**: A library for creating 3D graphics in the browser.
 - **`@splinetool/runtime`**: A runtime library for embedding and interacting with Spline 3D scenes.
-
-### Backend and Express
-- **`express`**: A web framework used for server-side functionality, including SSR and APIs.
 
 ### Development Tools
 - **`@angular-devkit/build-angular`**: Tools for building Angular projects.
