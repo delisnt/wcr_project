@@ -36,10 +36,9 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-src/environments
+
 .dockerignore
-package-lock.json
-yarn.lock
+
 
 # System files
 .DS_Store
