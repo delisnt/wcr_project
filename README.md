@@ -5,6 +5,16 @@ This project is built with Angular and leverages various tools and libraries to 
 
 ---
 
+##Deployment 
+after cloning the repository make sure Docker is running, then : 
+
+Build the image with: 
+docker build -t wcr-project .
+
+and run it: 
+docker run -d -p 4200:4200 wcr-challenge
+
+
 ## Dependencies
 
 ### Core Angular Packages
